@@ -1,0 +1,4614 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(try.jpg);
+    background-size: 1400px 100vh;
+    height: 85vh;
+    width: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 2px solid #ee661a;
+    position: relative;
+}
+
+.toggle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 1rem;
+    right: .8rem;
+    width: 40px;
+    height: 32px;
+    color: #ee661a;
+    padding: 5px;
+    border: 2px solid #ee661a;
+    display: none;
+}
+
+.toggle .bar {
+    height: 4px;
+    width: 100%;
+    background-color: #ee661a;
+    border-radius: 10px;
+}
+
+.Logo {
+    text-decoration: none;
+    list-style: none;
+    color: #ee661a;
+    position: absolute;
+    top: 0px;
+    font-size: 2.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.Logo:hover {
+    text-decoration: none;
+    list-style: none;
+    color: #f8b94c;
+    position: absolute;
+    top: 10px;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+.navbar ul {
+    display: flex; 
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid #ee661a;
+    border-radius: 8px;
+}
+
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ee661a;
+}
+
+.section1 {
+    position: relative;
+    left: 250px;
+    width: 50%;
+    margin-top: 70px;
+}
+
+.section1 h1 {
+    font-size: 4.7rem;
+    color: #fff;
+    font-family: 'Mate SC', serif;
+}
+
+.section1 p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Crimson Pro', serif;
+    margin-bottom: 40px;
+}
+
+.section1 a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee661a;
+    font-size: .9rem;
+    font-family: 'Merriweather', serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.section1 a:hover {
+    color: #fff;
+    font-size: .9rem;
+    background-color: #f77a33;
+}
+
+
+.section2 {
+    background-color: black;
+    padding-bottom: 50px;
+    
+    
+}
+.section21 {
+    padding-top: 50px;
+    
+}
+
+.section21 h2 {
+    color: #ee661a;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.section21 .line {
+    width: 5%;
+    border: 1px solid rgb(85, 85, 85);
+    height: 2px;
+    margin: auto;
+}
+
+.section22 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.service1 {
+    height: 80vh;
+    width: 100%;
+    background-image: url(buffet.jpg);
+    background-size: 500px 80vh;
+    margin-right: 2px;
+}
+
+.service1 h3 {
+    font-size: 2.5rem;
+    font-family: 'Mate SC', serif;
+    color: #fff;
+    padding: 80px 20px 100px 20px;
+}
+
+.service1 p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    padding: 0px 20px 50px;
+}
+
+.service1a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #ee661a;
+    padding: 15px 30px;
+    font-family: 'Mate SC', serif;
+    border-radius: 3px;
+}
+
+.service2 {
+    height: 80vh;
+    width: 100%;
+    background-image: url(close.jpg);
+    background-size: 500px 80vh;
+}
+
+.service2 h3 {
+    font-size: 2.5rem;
+    font-family: 'Mate SC', serif;
+    color: #fff;
+    padding: 80px 20px 100px 20px;
+}
+
+.service2 p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    padding: 0px 20px 50px;
+}
+
+.service2a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #ee661a;
+    padding: 15px 30px;
+    font-family: 'Mate SC', serif;
+    border-radius: 3px;
+}
+
+.service3 {
+    height: 80vh;
+    width: 100%;
+    background-image: url(chicken.jpg);
+    background-size: 500px 80vh;
+    margin-left: 2px;
+}
+
+.service3 h3 {
+    font-size: 2.5rem;
+    font-family: 'Mate SC', serif;
+    color: #fff;
+    padding: 80px 20px 100px 20px;
+}
+
+.service3 p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    padding: 0px 20px 50px;
+}
+
+.service3a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #ee661a;
+    padding: 15px 30px;
+    font-family: 'Mate SC', serif;
+    border-radius: 3px;
+}
+
+.service3a:hover,
+.service2a:hover,
+.service1a:hover {
+    color: #fff;
+    font-size: 1rem;
+    background-color: #f77a33;
+}
+
+.section3 {
+    padding: 50px 0px;
+    background-color: rgb(246, 246, 246);
+}
+
+.section31 {
+    text-align: center;
+}
+
+.section31 h2 {
+    color: #ee661a;
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 20px;
+}
+
+.section31 .line {
+    width: 5%;
+    border: 1px solid rgb(197, 197, 197);
+    height: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section31 .social {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    margin-right: 50px;
+}
+
+.section4 {
+    background-color: #ee661a;
+    padding: 60px 0px;
+}
+
+.section41 {
+    text-align: center;
+}
+
+.section41 h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 30px;
+}
+
+.section41 p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    padding-bottom: 5px;
+}
+
+#EmailAddress {
+    width: 80%;
+    margin-left: 200px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.email {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+}
+
+.button {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: #fff;
+    font-family: 'Mate SC', serif;
+    border-radius: 3px;
+    margin-right: 150px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.section5 {
+    padding: 60px 0px;
+    background-color: rgb(246, 246, 246);
+}
+
+.section51 {
+    text-align: center;
+}
+
+.section51 h2 {
+    color: #ee661a;
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 20px;
+}
+
+.section51 h6 {
+    font-size: 1.2rem;
+}
+
+.section51 p {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2rem;
+    padding: 30px 150px;
+}
+
+.section51 .line {
+    width: 5%;
+    border: 1px solid rgb(197, 197, 197);
+    height: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ordermail {
+    text-decoration: underline;
+    color: #ee661a;
+    font-size: 1.2rem;
+    font-family: 'Crimson Pro', serif;
+}
+
+.ordermail:hover {
+    color: #ee661a;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#address {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.5rem;
+}
+
+#phone {
+    color: #ee661a;
+    font-size: 1.4rem;
+    font-family: 'Crimson Pro', serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.phone:hover {
+    color: #ee661a;
+}
+
+.section52 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.quote {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee661a;
+    padding: 17px 40px;
+    font-weight: 500;
+    font-size: .9rem;
+    font-family: 'Mate SC', serif;
+    border-radius: 3px;
+}
+
+.quote:hover {
+    color: #fff;
+    background-color: #f77a33;
+}
+
+footer {
+    background-color: black;
+}
+
+.section6 {
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section6 p {
+    color: rgb(160, 158, 158);
+    font-size: 1rem;
+    padding-top: 20px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.name {
+    text-decoration: none;
+    color: #ee661a;
+}
+
+.name:hover {
+    color: #ee661a;
+}
+  
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 320px) {
+
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .toggle {
+        display: flex;
+        right: 0rem;
+    }
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 250vh 90vh;
+        height: 90vh;
+        width: 50%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 17vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.2rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 10px;
+        font-size: 1.8rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 50px;
+    }
+    
+    .section1 h1 {
+        font-size: 2.5rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 10px; 
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 35px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1rem;
+        font-family: 'Merriweather', serif;
+        padding: 15px 60px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+    }
+
+    .section21 {
+        padding-top: 30px;
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 20%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .service1 {
+        height: 90vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 360px 90vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 60px 30px;
+    }
+    
+    .service1 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 30px 40px 30px;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 90vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 360px 90vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 60px 30px;
+    }
+    
+    .service2 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 30px 40px 30px;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 90vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 500px 90vh;
+    }
+
+    .service3 h3 {
+        font-size: 2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 60px 30px;
+    }
+
+    .service3 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 30px 40px 30px;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 10px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 100%;
+        margin-left: 0px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 20px 95px;
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 1.3rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.1rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.1rem;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: .9rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: .9rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+    
+}
+
+
+@media (min-width: 321px) and (max-width: 576px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .toggle {
+        display: flex;
+        right: 0rem;
+    }
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 250vh 90vh;
+        height: 90vh;
+        width: 50%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 18vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.3rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 10px;
+        font-size: 1.9rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 25%;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 50px;
+    }
+    
+    .section1 h1 {
+        font-size: 2.5rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 12%;
+        
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 1.6rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 45%;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Merriweather', serif;
+        padding: 16px 64px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 30px;    
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 2.1rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 20%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .service1 {
+        height: 85vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 380px 85vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30% 8%;
+    }
+    
+    .service1 p {
+        font-size: 1.7rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 8% 30% 8%;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 85vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 380px 85vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30% 8%;
+    }
+    
+    .service2 p {
+        font-size: 1.7rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 8% 30% 8%;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 85vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 380px 85vh;
+    }
+
+    .service3 h3 {
+        font-size: 2.2rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30% 8%;
+    }
+
+    .service3 p {
+        font-size: 1.7rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 8% 30% 8%;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 2.2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 10px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 2.2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 100%;
+        margin-left: 0px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 20px 41%;
+        text-decoration: none;
+        color: black;
+        font-size: .9rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 2.2rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 1.35rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.3rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 1.3rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
+
+@media (max-width: 568px) and (orientation: landscape) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .toggle {
+        display: flex;
+        right: 0rem;
+    }
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 250vh 85vh;
+        height: 85vh;
+        width: 50%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 65vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.4rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 10px;
+        font-size: 1.7rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 25px;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 45px;
+    }
+    
+    .section1 h1 {
+        font-size: 2.2rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 0px;
+        
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 1.4rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 40px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1rem;
+        font-family: 'Merriweather', serif;
+        padding: 15px 60px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 30px;
+        
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 2.2rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 20%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .service1 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 512px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30px 20px;
+    }
+    
+    .service1 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 15px 30px 15px;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 512px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.8rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30px 20px;
+    }
+    
+    .service2 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 15px 30px 15px;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 512px 100vh;
+    }
+
+    .service3 h3 {
+        font-size: 2.8rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 30px 20px;
+    }
+
+    .service3 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 15px 30px 15px;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 2.8rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 15px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 2.8rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 1.3rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 100%;
+        margin-left: 0px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 20px 203px;
+        text-decoration: none;
+        color: black;
+        font-size: .9rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 2.6rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 1.4rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.35rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 20%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.25rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.25rem;
+        align-items: center;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 1.35rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1.2rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+
+    .toggle {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 1.5rem;
+        right: 0rem;
+        width: 50px;
+        height: 42px;
+        color: #ee661a;
+        padding: 5px;
+        border: 2px solid #ee661a;
+    }
+    
+    .toggle .bar {
+        height: 7px;
+        width: 100%;
+        background-color: #ee661a;   
+    }
+
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 190vh 85vh;
+        height: 85vh;
+        width: 60%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 30vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.6rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 15px;
+        font-size: 2.7rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 80px;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 70px;
+    }
+    
+    .section1 h1 {
+        font-size: 5rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 30px;
+        
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 2.8rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 80px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 2rem;
+        font-family: 'Merriweather', serif;
+        padding: 15px 60px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 30px;
+        
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 15%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service1 {
+        height: 100vh;
+        min-height: 80vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 695px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 12% 8%;
+    }
+    
+    .service1 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 18% 10%;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 18px 40px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 100vh;
+        min-height: 80vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 695px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 12% 8%;
+    }
+    
+    .service2 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 18% 10%;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 18px 40px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 100vh;
+        min-height: 80vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 695px 100vh;
+    }
+
+    .service3 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 12% 8%;
+    }
+
+    .service3 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 18% 10%;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 18px 40px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 15%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 15px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 150%;
+        margin-left: -100px;
+        padding: 20px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 15px 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 1.85rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 1.6rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.65rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 15%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.45rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.45rem;
+        align-items: center;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 1.55rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: 1.4rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1.4rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) and (orientation: landscape) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    
+
+
+    .toggle {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 1.5rem;
+        right: 0rem;
+        width: 42px;
+        height: 34px;
+        color: #ee661a;
+        padding: 5px;
+        border: 2px solid #ee661a;
+    }
+    
+    .toggle .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #ee661a;   
+    }
+
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 190vh 85vh;
+        height: 85vh;
+        width: 100%;
+        
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+        max-width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 65vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.7rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 15px;
+        font-size: 2rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 40px;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 60px;
+        max-width: 100%;
+    }
+    
+    .section1 h1 {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 10px;
+        
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 1.8rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 40px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1rem;
+        font-family: 'Merriweather', serif;
+        padding: 15px 60px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 30px;
+        
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 10%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service1 {
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 662px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 8% 8%;
+    }
+    
+    .service1 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 8% 10%;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 100vh;
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 662px 100vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 8% 8%;
+    }
+    
+    .service2 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 8% 10%;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 100vh;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 662px 100vh;
+    }
+
+    .service3 h3 {
+        font-size: 2.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 8% 8%;
+    }
+
+    .service3 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 8% 10%;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 2.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 15px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 2.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 1.4rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 154%;
+        margin-left: -85px;
+        padding: 20px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 15px 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 1.35rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 2.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 1.4rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.35rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.35rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.35rem;
+        align-items: center;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 1.45rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1.3rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    
+    .toggle {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 1.5rem;
+        right: 0rem;
+        width: 42px;
+        height: 34px;
+        color: #ee661a;
+        padding: 5px;
+        border: 2px solid #ee661a;
+    }
+    
+    .toggle .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #ee661a;   
+    }
+
+
+    header {
+        background-image: url(try.jpg);
+        background-size: 160vh 90vh;
+        height: 90vh;
+        width: 100%;
+        
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        border-bottom: none;
+        max-width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 25vh;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 1.9rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 15px;
+        font-size: 2.4rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .Logo:hover {
+        font-size: 1.85rem;
+    }
+
+    .section1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding-top: 90px;
+        text-align: center;
+        border-top: 2px solid #ee661a;
+        margin-top: 60px;
+        max-width: 100%;
+    }
+    
+    .section1 h1 {
+        font-size: 5rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+        padding-bottom: 30px;
+        
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 2.8rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 80px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1.8rem;
+        font-family: 'Merriweather', serif;
+        padding: 15px 60px;
+        border-radius: 4px;
+        
+    }
+
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1.9rem;
+        background-color: #f77a33;
+    }
+
+    .menu {
+        margin: auto;
+    }
+
+        
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 30px;
+        
+    }
+
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .section21 .line {
+        width: 10%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+
+    .section22 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service1 {
+        height: 80vh;
+        max-height: 80vh;
+        min-height: 70vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 720px 70vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 18% 8%;
+    }
+    
+    .service1 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 22% 10%;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .service2 {
+        height: 100vh;
+        min-height: 70vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 720px 70vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 18% 8%;
+    }
+    
+    .service2 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 22% 10%;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+        
+    .service3 {
+        height: 100vh;
+        min-height: 70vh;
+        max-height: 100vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 720px 70vh;
+    }
+
+    .service3 h3 {
+        font-size: 3.7rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 18% 8%;
+    }
+
+    .service3 p {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 10% 22% 10%;
+    }
+
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #ee661a;
+        padding: 16px 34px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 20px;
+    }
+
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+
+    .section41 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section41 h2 {
+        color: #fff;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .section41 p {
+        font-size: 2.4rem;
+        text-align: center;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+
+    #EmailAddress {
+        width: 154%;
+        margin-left: -115px;
+        padding: 20px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .button {
+        padding: 15px 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: 2.1rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+
+    
+    .section5 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .section51 {
+        text-align: center;
+    }
+
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 3.7rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .section51 h6 {
+        font-size: 2.4rem;
+    }
+
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 2.35rem;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    .section51 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 2.15rem;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.9rem;
+        align-items: center;
+    }
+
+    .phone {
+        color: #ee661a;
+        font-size: 2rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+
+    .section52 {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 50px;
+        font-weight: 700;
+        font-size: 1.7rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+
+    .section6 {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 2.3rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width: 1200px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-image: url(try.jpg);
+        background-size: 1600px 70vh;
+        height: 70vh;
+        width: 100%;
+    }
+    
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        border-bottom: 2px solid #ee661a;
+    }
+    
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 0px;
+        font-size: 2.8rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .Logo:hover {
+        text-decoration: none;
+        list-style: none;
+        color: #f8b94c;
+        position: absolute;
+        top: 10px;
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+    
+    .navbar ul {
+        display: flex; 
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 1.8rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .navbar ul li:hover {
+        border-bottom: 2px solid #ee661a;
+        border-radius: 8px;
+    }
+    
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    ul .navbar1 {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .section1 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .section1 h1 {
+        font-size: 7rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 2.8rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 80px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 2.4rem;
+        font-family: 'Merriweather', serif;
+        padding: 12px 24px;
+        border-radius: 4px;
+    }
+    
+    .section1 a:hover {
+        color: #fff;
+        font-size: 2.1rem;
+        background-color: #f77a33;
+    }
+    
+    
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 50px;
+        
+    }
+    
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .section21 .line {
+        width: 5%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+    
+    .section22 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .service1 {
+        height: 60vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 328px 60vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.8rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service1 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service2 {
+        height: 60vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 328px 60vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.8rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service2 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3 {
+        height: 60vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 328px 60vh;
+    }
+    
+    .service3 h3 {
+        font-size: 2.8rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service3 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 50px 20px 50px;
+    }
+    
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3a:hover,
+    .service2a:hover,
+    .service1a:hover {
+        color: #fff;
+        font-size: 1.6rem;
+        background-color: #f77a33;
+    }
+    
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 4rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 50px;
+    }
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+    
+    .section41 {
+        text-align: center;
+    }
+    
+    .section41 h2 {
+        color: #fff;
+        font-size: 4rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+    
+    .section41 p {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+    
+    #EmailAddress {
+        width: 80%;
+        margin-left: 150px;
+        padding: 12px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .button {
+        padding: 15px 20px;
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 150px;
+    }
+    
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+    
+    .section5 {
+        padding: 60px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section51 {
+        text-align: center;
+    }
+    
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section51 h6 {
+        font-size: 1.2rem;
+    }
+    
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+        padding: 30px 150px;
+    }
+    
+    .section51 .line {
+        width: 5%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+    }
+    
+    .phone {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+    
+    .section52 {
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 40px;
+        font-weight: 500;
+        font-size: .9rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+    footer {
+        background-color: black;
+    }
+    
+    .section6 {
+        padding: 50px 0px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+         
+}
+
+
+
+@media (min-width:992px) and (max-width: 1200px) and (orientation: landscape) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-image: url(try.jpg);
+        background-size: 1600px 80vh;
+        height: 80vh;
+        width: 100%;
+    }
+    
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        border-bottom: 2px solid #ee661a;
+    }
+    
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 0px;
+        font-size: 2.5rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .Logo:hover {
+        text-decoration: none;
+        list-style: none;
+        color: #f8b94c;
+        position: absolute;
+        top: 10px;
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+    
+    .navbar ul {
+        display: flex; 
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 1.6rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .navbar ul li:hover {
+        border-bottom: 2px solid #ee661a;
+        border-radius: 8px;
+    }
+    
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    ul .navbar1 {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .section1 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    .section1 h1 {
+        font-size: 5rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 2rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 80px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: 1.8rem;
+        font-family: 'Merriweather', serif;
+        padding: 12px 24px;
+        border-radius: 4px;
+    }
+    
+    .section1 a:hover {
+        color: #fff;
+        font-size: 1.9rem;
+        background-color: #f77a33;
+    }
+    
+    
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 50px;
+        
+    }
+    
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .section21 .line {
+        width: 10%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+    
+    .section22 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .service1 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 328px 80vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.4rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service1 p {
+        font-size: 1.6rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service2 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 328px 80vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.4rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 150px 20px;
+    }
+    
+    .service2 p {
+        font-size: 1.6rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 80px;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 328px 80vh;
+    }
+    
+    .service3 h3 {
+        font-size: 2.4rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service3 p {
+        font-size: 1.6rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 50px 20px 50px;
+    }
+    
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3a:hover,
+    .service2a:hover,
+    .service1a:hover {
+        color: #fff;
+        font-size: 1.6rem;
+        background-color: #f77a33;
+    }
+    
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 50px;
+    }
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+    
+    .section41 {
+        text-align: center;
+    }
+    
+    .section41 h2 {
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+    
+    .section41 p {
+        font-size: 1.6rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+    
+    #EmailAddress {
+        width: 80%;
+        margin-left: 150px;
+        padding: 12px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .button {
+        padding: 15px 20px;
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 150px;
+    }
+    
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+    
+    .section5 {
+        padding: 60px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section51 {
+        text-align: center;
+    }
+    
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section51 h6 {
+        font-size: 1.35rem;
+    }
+    
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.3rem;
+        padding: 30px 120px;
+    }
+    
+    .section51 .line {
+        width: 10%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.3rem;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.25rem;
+    }
+    
+    .phone {
+        color: #ee661a;
+        font-size: 1.25rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+    
+    .section52 {
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 40px;
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+    footer {
+        background-color: black;
+    }
+    
+    .section6 {
+        padding: 50px 0px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1.2rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+
+}
+
+
+@media (min-width: 1201px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-image: url(try.jpg);
+        background-size: 1400px 85vh;
+        height: 85vh;
+        width: 100%;
+    }
+    
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        border-bottom: 2px solid #ee661a;
+    }
+    
+    .Logo {
+        text-decoration: none;
+        list-style: none;
+        color: #ee661a;
+        position: absolute;
+        top: 0px;
+        font-size: 2.5rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .Logo:hover {
+        text-decoration: none;
+        list-style: none;
+        color: #f8b94c;
+        position: absolute;
+        top: 10px;
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+    
+    .navbar ul {
+        display: flex; 
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 1.3rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .navbar ul li:hover {
+        border-bottom: 2px solid #ee661a;
+        border-radius: 8px;
+    }
+    
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    ul .navbar1 {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .section1 {
+        position: relative;
+        left: 250px;
+        width: 50%;
+        margin-top: 70px;
+    }
+    
+    .section1 h1 {
+        font-size: 4.7rem;
+        color: #fff;
+        font-family: 'Mate SC', serif;
+    }
+    
+    .section1 p {
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Crimson Pro', serif;
+        margin-bottom: 40px;
+    }
+    
+    .section1 a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        font-size: .9rem;
+        font-family: 'Merriweather', serif;
+        padding: 12px 24px;
+        border-radius: 4px;
+    }
+    
+    .section1 a:hover {
+        color: #fff;
+        font-size: .9rem;
+        background-color: #f77a33;
+    }
+    
+    
+    .section2 {
+        background-color: black;
+        padding-bottom: 50px;
+        
+        
+    }
+    .section21 {
+        padding-top: 50px;
+        
+    }
+    
+    .section21 h2 {
+        color: #ee661a;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .section21 .line {
+        width: 5%;
+        border: 1px solid rgb(85, 85, 85);
+        height: 2px;
+        margin: auto;
+    }
+    
+    .section22 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .service1 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(buffet.jpg);
+        background-size: 500px 80vh;
+        margin-bottom: 2px;
+    }
+    
+    .service1 h3 {
+        font-size: 2.5rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service1 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service1a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service2 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(close.jpg);
+        background-size: 500px 80vh;
+        margin-bottom: 2px;
+    }
+    
+    .service2 h3 {
+        font-size: 2.5rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service2 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service2a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(chicken.jpg);
+        background-size: 500px 80vh;
+    }
+    
+    .service3 h3 {
+        font-size: 2.5rem;
+        font-family: 'Mate SC', serif;
+        color: #fff;
+        padding: 80px 20px 100px 20px;
+    }
+    
+    .service3 p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding: 0px 20px 50px;
+    }
+    
+    .service3a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #ee661a;
+        padding: 15px 30px;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .service3a:hover,
+    .service2a:hover,
+    .service1a:hover {
+        color: #fff;
+        font-size: 1rem;
+        background-color: #f77a33;
+    }
+    
+    .section3 {
+        padding: 50px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section31 {
+        text-align: center;
+    }
+    
+    .section31 h2 {
+        color: #ee661a;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section31 .line {
+        width: 5%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .section31 .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .facebook {
+        margin-right: 50px;
+    }
+    
+    .section4 {
+        background-color: #ee661a;
+        padding: 60px 0px;
+    }
+    
+    .section41 {
+        text-align: center;
+    }
+    
+    .section41 h2 {
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 30px;
+    }
+    
+    .section41 p {
+        font-size: 1.1rem;
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+        padding-bottom: 5px;
+    }
+    
+    #EmailAddress {
+        width: 80%;
+        margin-left: 200px;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    
+    .email {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-control::placeholder {
+        color: #fff;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .button {
+        padding: 15px 20px;
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: #fff;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+        margin-right: 150px;
+    }
+    
+    .button:hover {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.767);
+    }
+    
+    .section5 {
+        padding: 60px 0px;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .section51 {
+        text-align: center;
+    }
+    
+    .section51 h2 {
+        color: #ee661a;
+        font-size: 3rem;
+        font-family: 'Philosopher', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .section51 h6 {
+        font-size: 1.2rem;
+    }
+    
+    .section51 p {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+        padding: 30px 150px;
+    }
+    
+    .section51 .line {
+        width: 5%;
+        border: 1px solid rgb(197, 197, 197);
+        height: 2px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .ordermail {
+        text-decoration: underline;
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .ordermail:hover {
+        color: #ee661a;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .address {
+        font-family: 'Crimson Pro', serif;
+        font-size: 1.2rem;
+    }
+    
+    .phone {
+        color: #ee661a;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+    }
+    
+    .section52 {
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .quote {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ee661a;
+        padding: 17px 40px;
+        font-weight: 500;
+        font-size: .9rem;
+        font-family: 'Mate SC', serif;
+        border-radius: 3px;
+    }
+    
+    .quote:hover {
+        color: #fff;
+        background-color: #f77a33;
+    }
+    
+    footer {
+        background-color: black;
+    }
+    
+    .section6 {
+        padding: 50px 0px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .section6 p {
+        color: rgb(160, 158, 158);
+        font-size: 1rem;
+        padding-top: 20px;
+        font-family: 'Crimson Pro', serif;
+    }
+    
+    .name {
+        text-decoration: none;
+        color: #ee661a;
+    }
+    
+    .name:hover {
+        color: #ee661a;
+    }
+}
